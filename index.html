@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex Eftychiou — UX Researcher</title>
+<style>
+  :root{
+    --ink:#1a1a1a;
+    --accent:#4053C7;
+    --link:#5D6DD0;
+    --muted:#6b6b6b;
+    --rule:#dcdde3;
+    --bg:#ffffff;
+    --panel:#f6f7fc;
+    --panel-line:#e3e5f2;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:#eef0f7;
+    color:var(--ink);
+    font-family:Calibri,Carlito,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;
+    font-size:15.5px;
+  }
+  .sheet{
+    max-width:800px;
+    margin:40px auto 80px;
+    background:var(--bg);
+    padding:56px 60px;
+    box-shadow:0 1px 3px rgba(20,28,78,.08), 0 8px 24px rgba(20,28,78,.06);
+    border-radius:4px;
+  }
+  .eyebrow{color:var(--accent);font-weight:700;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;}
+  h1.name{font-size:34px;font-weight:700;margin:6px 0 12px;letter-spacing:-0.3px;}
+  .contact{color:var(--muted);font-size:14px;margin-bottom:2px;}
+  .contact a{color:var(--muted);text-decoration:none;}
+  .contact a:hover{color:var(--accent);}
+
+  h2.section{
+    color:var(--muted);
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    margin:30px 0 10px;
+    padding-bottom:8px;
+    border-bottom:1px solid var(--rule);
+  }
+  h2.section:first-of-type{margin-top:26px;}
+
+  .summary{font-size:15px;max-width:100%;}
+
+  .expertise{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:0;
+    border:1px solid var(--panel-line);
+    border-radius:4px;
+    overflow:hidden;
+  }
+  .expertise .col{padding:14px 18px;background:var(--panel);}
+  .expertise .col + .col{border-left:1px solid var(--panel-line);}
+  .expertise .col h4{font-size:14.5px;margin:0 0 8px;font-weight:700;}
+  .expertise .col div{font-size:14px;color:var(--ink);margin-bottom:2px;}
+
+  .role{margin-bottom:22px;}
+  .role-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .role-head .company{color:var(--link);font-weight:700;font-size:16px;}
+  .role-head .title{font-weight:700;font-size:15.5px;}
+  .role-dates{color:var(--muted);font-size:13.5px;margin:2px 0 8px;}
+  .role ul{margin:0;padding-left:20px;}
+  .role li{margin-bottom:8px;font-size:14.8px;}
+  .role li:last-child{margin-bottom:0;}
+
+  .edu-line{font-size:14.8px;margin-bottom:4px;}
+  .pub-note{font-size:14.5px;color:var(--ink);margin-top:6px;}
+
+  footer{margin-top:34px;padding-top:14px;border-top:1px solid var(--rule);display:flex;justify-content:space-between;color:var(--muted);font-size:12.5px;}
+
+  @media print{
+    body{background:#fff;}
+    .sheet{box-shadow:none;margin:0;padding:0;max-width:100%;}
+  }
+
+  @media (max-width:640px){
+    .sheet{padding:32px 22px;margin:0;border-radius:0;}
+    .expertise{grid-template-columns:1fr;}
+    .expertise .col + .col{border-left:none;border-top:1px solid var(--panel-line);}
+    h1.name{font-size:28px;}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="eyebrow">UX Researcher · Product Strategy · Research Practice</div>
+  <h1 class="name">Alex Eftychiou</h1>
+  <div class="contact">London, UK &nbsp;|&nbsp; <a href="mailto:alex.eftyhiou@gmail.com">alex.eftyhiou@gmail.com</a> &nbsp;|&nbsp; 07908 896073</div>
+  <div class="contact"><a href="https://linkedin.com/in/alexeftyhiou">linkedin.com/in/alexeftyhiou</a> &nbsp;|&nbsp; <a href="https://alex-eftyhiou.github.io/alex-eftychiou-PRINCuxr-portfolio/" target="_blank" rel="noopener">alex-eftyhiou.github.io/alex-eftychiou-PRINCuxr-portfolio</a></div>
+
+  <h2 class="section">Professional summary</h2>
+  <p class="summary">UX Researcher with 12+ years across regulated financial services, public services and global technology. Leads ambiguous research from problem framing through product and roadmap decisions, combining qualitative, behavioural and quantitative evidence. Shapes decisions across teams, builds research governance and develops colleagues' capability. Background in cognitive engineering and human factors, with a focus on customer understanding in complex systems.</p>
+
+  <h2 class="section">Core expertise</h2>
+  <div class="expertise">
+    <div class="col">
+      <h4>Strategy &amp; influence</h4>
+      <div>Problem framing</div>
+      <div>Platform and service strategy</div>
+      <div>Stakeholder alignment</div>
+    </div>
+    <div class="col">
+      <h4>Research judgement</h4>
+      <div>Mixed methods · JTBD · RITE</div>
+      <div>IA · contextual research</div>
+      <div>Benchmarking and synthesis</div>
+    </div>
+    <div class="col">
+      <h4>Practice leadership</h4>
+      <div>Quality assurance · mentoring</div>
+      <div>Inclusive research operations</div>
+      <div>Impact measurement</div>
+    </div>
+  </div>
+
+  <h2 class="section">Professional experience</h2>
+
+  <div class="role">
+    <div class="role-head"><span class="company">Interactive Investor</span><span> | </span><span class="title">Senior User Researcher</span></div>
+    <div class="role-dates">March 2024 – Present</div>
+    <p style="font-size:14.8px;margin:0 0 8px;">Research across investment journeys and initiatives spanning Experience, Portfolio, Trading, Content and Research.</p>
+    <ul>
+      <li>Set research direction across three squad roadmaps by synthesising research, CSAT, customer feedback and complaints, prioritising consequential uncertainty and customer risk.</li>
+      <li>Defined cross-platform parity through structural comparison, capability audit, moderated research and unsolicited feedback. Produced a shared conceptual model and reusable criteria for separating navigation problems from missing capabilities across web and app.</li>
+      <li>Sequenced JTBD discovery before a RITE programme for Portfolio Overview. Established its strategic purpose and design guardrails; evidence supported customisation and removed an unsupported goals feature before build.</li>
+      <li>Led W-8BEN comprehension research across three customer groups, shaping a responsive rebuild that removed eight pages and 16 clicks. Completion subsequently rose 22 percentage points; US trading increased 20% over four months, an associated commercial movement rather than an isolated research effect.</li>
+      <li>Designed and piloted a six-agent AI-assisted research workflow separating generation from critique, with two mandatory UXR approval gates and escalation for sensitive research. Established a four-part research-impact model, mapped inclusive recruitment operations and mentored colleagues.</li>
+      <li>Developed a UXR–UXD collaboration framework covering joint planning, design iteration and shared stakeholder communication; applied the partnership during Portfolio Overview research to turn evidence into prototype decisions between sessions.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head"><span class="company">UI Centric</span><span> | </span><span class="title">Senior User Experience Researcher (Freelance)</span></div>
+    <div class="role-dates">June 2023 – August 2023 &nbsp;•&nbsp; Oddschecker</div>
+    <ul>
+      <li>Led kickoff workshops with senior UI Centric and Oddschecker stakeholders to establish client needs, product vision and constraints. Defined US-market research that uncovered a preference for bonuses over odds and secured agreement to shift the proposition towards bonuses and freebies.</li>
+      <li>Led concurrent research across the UCD lifecycle and established an internal research capability, broadening the consultancy's service offering and supporting new business opportunities.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head"><span class="company">AND Digital</span><span> | </span><span class="title">Senior User Experience Researcher (Permanent)</span></div>
+    <div class="role-dates">August 2022 – May 2023 &nbsp;•&nbsp; Costa Coffee, Edenred, PlayStation, RS Components</div>
+    <ul>
+      <li>Led research across the UCD lifecycle for international B2B and B2C clients, assuring the quality of internal and client-side junior teams' work. Secured stakeholder buy-in across differing levels of seniority and UX maturity under tight timelines and resource constraints.</li>
+      <li>For Edenred, reframed a benefits-platform redesign around employee relevance and findability. Combined interviews, homepage evaluation and open card sorting to inform navigation and personalisation; used user evidence to gain support for further research and prioritised design changes. Redesign evaluation reported task success rising from 50% to 85%, time on task falling 40%, and satisfaction increasing from 6.5 to 8.9/10.</li>
+      <li>Explored interpersonal communication and mapped gamer social hierarchies for Sony PlayStation.</li>
+      <li>As the first UX researcher in the AND Digital business studio, established its research capability: set up Maze and a Prolific participant panel, delivered training for developers, designers and product owners, and mentored junior researchers to strengthen research practice.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head"><span class="company">Citizens Advice</span><span> | </span><span class="title">UX Researcher</span></div>
+    <div class="role-dates">October 2019 – August 2022</div>
+    <ul>
+      <li>Led discovery-to-delivery research for a national intranet serving 30,000 staff and volunteers, replacing two legacy systems with approximately 7,000 pages. Combined contextual research, card sorting, tree testing and prototype evaluation; post-launch measurement reported 90% user success.</li>
+      <li>Led Casebook research spanning 783 survey responses across 220 offices, fieldwork and client interviews. Reconciled demographic-data quality with adviser capacity, informing revised descriptors, guidance and scripts; after implementation, QA passes increased 30% and average collection time fell 25%.</li>
+      <li>Worked with community leaders to include marginalised groups and people with disabilities in sensitive-data research. Developed measurement and research contribution guidance, supported accessibility practice and oversaw junior researchers' workstreams.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head"><span class="company">UserZoom</span><span> | </span><span class="title">UX Researcher</span></div>
+    <div class="role-dates">January 2019 – October 2019</div>
+    <ul>
+      <li>Led parallel financial-services and ecommerce research. A 30-person Bose comparison showed the older customiser received higher ease ratings, informing targeted interaction and performance recommendations.</li>
+      <li>Identified proposition-comprehension gaps across debt, saving and investing for OpenMoney. Combined task success, confidence and time to expose comparison and signposting difficulties for Money Advice Service.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head"><span class="company">Ipsos MORI</span><span> | </span><span class="title">UX Consultant (Contract)</span></div>
+    <div class="role-dates">September 2018 – October 2018 &nbsp;•&nbsp; Visa, American Express</div>
+    <ul>
+      <li>Led discovery, RITE and remote evaluation for Visa's UK instalment-credit proposition, shaping a consolidated purchase journey. For American Express, stage-level comfort measures exposed credit-check and next-step anxiety beneath positive usability scores.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head"><span class="company">Spotless</span><span> | </span><span class="title">User Experience Consultant</span></div>
+    <div class="role-dates">May 2016 – August 2018</div>
+    <ul>
+      <li>Planned UK research and synthesised evidence across France and the US on communication, trust and identity, contributing to product thinking around Facebook Messenger's 2016 redesign. Conducted foundational Oculus research into interaction complexity and onboarding confidence.</li>
+      <li>Challenged premature solution validation for AXA/KAMET's fleet-management concept; led contextual discovery with 36 fleet managers to define operational needs, personas, journeys and adoption risks for product development.</li>
+    </ul>
+  </div>
+
+  <div class="role" style="margin-bottom:0;">
+    <div class="role-head"><span class="company">University College London / BBC</span><span> | </span><span class="title">Cognitive Research Engineer</span></div>
+    <div class="role-dates">September 2013 – May 2016</div>
+    <ul>
+      <li>Led contextual inquiry and cognitive work analysis in BBC broadcast control rooms, defining information requirements and concepts for proactive routing decisions; contributed to peer-reviewed research on information displays.</li>
+    </ul>
+  </div>
+
+  <h2 class="section">Education and publications</h2>
+  <div class="edu-line">MRes, Virtual Environments, Imaging and Visualisation — UCL</div>
+  <div class="edu-line">MSc, Human–Computer Interaction with Ergonomics — UCL</div>
+  <div class="edu-line">BSc, Psychology</div>
+  <p class="pub-note">Published research through Springer, ACM and SAGE on ecological interface design, proactive decision-making and visual perception.</p>
+
+  <footer>
+    <span>Alex Eftychiou — UX Researcher</span>
+    <span>Updated 2026</span>
+  </footer>
+
+</div>
+</body>
+</html>
